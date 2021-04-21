@@ -1,5 +1,6 @@
 .content_box{
   position:absolute;
+  z-index: 1;
 }
 .content_box_one{
   position: absolute;
@@ -33,7 +34,9 @@
   font-weight: 700;
   margin-left: 20px;
 }
-
+.body0{
+  display: block;
+}
 
 @media only screen and  (max-width: 900px){
   #event_body{
