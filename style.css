@@ -118,7 +118,7 @@
   left: 15vw;
   margin-top: 1vh;
   }
-  #btn-1,#btn-2,#btn-3,#btn-4,#btn-5,#btn-6{
+  #btn-1,#btn-2,#btn-3,#btn-4,#btn-6{
     height: 60px;
     width: 20vw;
     border-radius: 4px;
@@ -126,7 +126,19 @@
     background-color: #1B1212;
     margin:0.6vw;
     justify-content: center;
-    font-size: 2.3vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+    outline-style: none;
+  }
+  #btn-5{
+    height: 60px;
+    width: 20vw;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #1B1212;
+    margin:0.6vw;
+    justify-content: center;
+    font-size: 2.1vw;
     font-weight: bold;
     outline-style: none;
   }
