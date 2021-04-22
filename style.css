@@ -458,11 +458,11 @@ footer > h2{
       flex-direction: column;
       position: fixed;
       justify-content: start;
-      top: 55px;
+      top: 60px;
       background-color:#1B1212;
       z-index: 10000;
       width: 100%;
-      height: calc(100vh-60px);
+      height: calc(100vh);
       transform: translate(101%);
       text-align: center;
       overflow: hidden;
