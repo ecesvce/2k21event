@@ -168,7 +168,7 @@ body
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-self: end;
-    
+   
   }
   
   .nav-item a {
@@ -489,6 +489,8 @@ body
       transform: translate(101%);
       text-align: center;
       overflow: hidden;
+      margin:0 auto;
+      padding:0;  
     }
     
     .navbar li {
