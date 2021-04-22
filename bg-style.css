@@ -489,8 +489,6 @@ body
       transform: translate(101%);
       text-align: center !important;
       overflow: hidden;
-      margin:0 auto;
-      padding:0;  
     }
     
     .navbar li {
