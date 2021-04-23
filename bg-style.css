@@ -181,6 +181,7 @@ body
     text-decoration: none;
     transition: color 0.3s ease-out;
     padding-right:10px;
+      padding-left:10px;
   }
   .nonactive{
         opacity:0.7;
