@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about_sheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato&family=Lobster&family=Open+Sans&family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84674cf0fd.js" crossorigin="anonymous"></script>
+    <title>ABOUT</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+    <div class="nav-wrapper">
+      <div class="grad-bar"></div>
+      <nav class="navbar">
+        <a href="./index.html.html"><img src="logo.png" id="log"></a>
+        <!--<h4 style="color: goldenrod;">UPAGRAHA'21</h4> -->
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+          <li class="nav-item nonactive"><a href="#">Home </a></li>
+          <li class="nav-item nonactive"><a href="#"> Events</a></li>
+          <li class="nav-item active"><a href="#"> About</a></li>
+        </ul>
+      </nav>
+    </div>
+</div>
+<h3 style="font-family:'Saira', sans-serif;">ABOUT</h3>
+<div class="upagraha_box">
+  <div class="up_text">
+  <h4>UPAGRAHA</h4>
+  <div class="grad-bar" style="height:2.5px;"></div>
+  <p>&emsp;The National intercollegiate technical symposium, UPAGRAHA is organised by the Electronics and Communication Engineers Association with the Robotics and Artificial Intelligence club. The event holds a record of more than 400 overwhelming participants.
+<br>&emsp;This year UPAGRAHA'21 will maintain its zenith of glory in virtual mode. The most sought platform for students across India to showcase their expertise in learning will include a table of electrifying events and illuminates the ideas of young minds and paves the way to flaunt their ideas with pride in front of a distinguished panel of judges.
+ UPAGRAHA'21 is absolutely the platform that cherishes the talents and recognizes them with cash rewards. We are excited to see what the future holds!</p>
+</div>
+  </div>
+  <div class="upagraha_box_two">
+    <div class="up_text">
+    <h4>ECEA</h4>
+    <div class="grad-bar" style="height:2.5px;"></div>
+    <p>ECEA-SVCE has been working as a great platform in engaging young minds in Electronics and Communication Engineering under the canopy of Sri Venkateswara College of Engineering. We focus on the overall reshaping of the students as the best engineers to join the workforce and play an integral role in all their endeavours by supporting them to acquire knowledge and provide them with good opportunities to showcase their talents.We conduct mind blogging events and focus on equipping the engineers with important concepts and lay a ground plan to learn new stuff every day and employ them in various applications.</p>
+  </div>
+  </div>
+  
+  </body>
+  <footer>
+    <ul>
+      <li><a href="https://www.linkedin.com/company/ecea-svce/"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://instagram.com/eceasvce?igshid=rin8gg0t2fbn"><i class="fab fa-instagram-square"></i></a></li>
+      <li> <a href="mailto: eceasvce2020@gmail.com"><i class="fab fa-google"></i></a></li>
+
+    </ul>
+  </footer>
+  <script>
+  $(document).ready(function () {
+    $("#search-icon").click(function () {
+      $(".nav").toggleClass("search");
+      $(".nav").toggleClass("no-search");
+      $(".search-input").toggleClass("search-active");
+    });
+
+    $('.menu-toggle').click(function () {
+      $(".nav").toggleClass("mobile-nav");
+      $(this).toggleClass("is-active");
+    });
+
+  });
+
+</script>
+</html>
