@@ -82,8 +82,12 @@ body{
     background:goldenrod;
     -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    
 
+  }
+  .nonactive a:hover{
+    background:goldenrod;
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
   }
   /* KEYFRAME ANIMATIONS */
 
