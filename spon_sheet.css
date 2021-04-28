@@ -578,9 +578,9 @@ p{
 	 position: relative;
 	 display: inline-block;
 	 margin-bottom:3em;
-	 width: 270px;
+	 width: 280px;
 	 
-	 height: 270px;
+	 height: 280px;
 }
  .flip > .front, .flip > .back {
 	 display: block;
@@ -588,7 +588,7 @@ p{
 	 width: inherit;
 	 background-size: cover !important;
 	 background-position: center !important;
-	 height: 270px;
+	 height: 280px;
 	 padding: 1em;
 	 background:white;
 	 border-radius: 10px;
@@ -874,148 +874,4 @@ footer > h2{
 
   }
 
- /*
- .page-wrapper {
-    width: 100%;
-    height: auto;
-  }
-  
-  .nav-wrapper {
-    width: 100%;
-    position: -webkit-sticky; 
-    position: sticky;
-    top: 0;
-    background-color:black;
-  }
-  
-  .grad-bar {
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-    background-size: 400% 400%;
-        -webkit-animation: gradbar 15s ease infinite;
-      -moz-animation: gradbar 15s ease infinite;
-      animation: gradbar 15s ease infinite;
-  }
-  
-  .navbar {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    align-items: center;
-    height: 50px;
-    overflow: hidden;
-  }
-  
-  .navbar img {
-    height: 60px;
-    width: 60px;
-    justify-self: start;
-    margin-left: 10px;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-self: end;
-    
-  }
-  
-  .nav-item a {
-    font-weight: 300;
-    background: -webkit-linear-gradient(#00e5ff, #1200ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-decoration: none;
-    transition: color 0.3s ease-out;
-    padding-right:10px;
-  }
-  .nonactive{
-        opacity:0.7;
-  }
-   
-  .nav-item a:hover {
-    background:goldenrod;
-    -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      
-        opacity:0.7;
-  }
-  .menu-toggle .bar{
-    width: 25px;
-    height: 3px;
-    background: -webkit-linear-gradient(#00e5ff, #1200ff);
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .menu-toggle {
-    justify-self: end;
-    margin-right: 25px;
-    display: none;
-  }
-  
-  .menu-toggle:hover{
-    cursor: pointer;
-  }
-  
-  #mobile-menu.is-active .bar:nth-child(2){
-    opacity: 0;
-  }
-  
-  #mobile-menu.is-active .bar:nth-child(1){
-    -webkit-transform: translateY(8px) rotate(45deg);
-    -ms-transform: translateY(8px) rotate(45deg);
-    -o-transform: translateY(8px) rotate(45deg);
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  #mobile-menu.is-active .bar:nth-child(3){
-    -webkit-transform: translateY(-8px) rotate(-45deg);
-    -ms-transform: translateY(-8px) rotate(-45deg);
-    -o-transform: translateY(-8px) rotate(-45deg);
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  
-  /* KEYFRAME ANIMATIONS 
-  
-  @-webkit-keyframes gradbar {
-      0% {
-          background-position: 0% 50%
-      }
-      50% {
-          background-position: 100% 50%
-      }
-      100% {
-          background-position: 0% 50%
-      }
-  }
-  
-  @-moz-keyframes gradbar {
-      0% {
-          background-position: 0% 50%
-      }
-      50% {
-          background-position: 100% 50%
-      }
-      100% {
-          background-position: 0% 50%
-      }
-  }
-  
-  @keyframes gradbar {
-      0% {
-          background-position: 0% 50%
-      }
-      50% {
-          background-position: 100% 50%
-      }
-      100% {
-          background-position: 0% 50%
-      }
-  }
-  */
+ 
