@@ -479,8 +479,8 @@ p{
   }
  footer ul li:nth-child(3):after{
     content:'\f1a0';
-    color:#EA4335;
-    border-bottom: 4px solid #EA4335;
+    color:#e82515;
+    border-bottom: 4px solid #e82515;
   }
  footer ul li:nth-child(2):after{
     content: '\e055';
@@ -851,8 +851,8 @@ p{
   }
  footer ul li:nth-child(3):after{
     content:'\f1a0';
-    color:#EA4335;
-    border-bottom: 4px solid #EA4335;
+    color:#e82515;
+    border-bottom: 4px solid #e82515;
   }
  footer ul li:nth-child(2):after{
     content: '\e055';
